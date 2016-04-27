@@ -1,0 +1,33 @@
+﻿---
+ID: "8a44bcc9-e465-4690-b40b-2336f15ec30a"
+Parent: "fcadcff1-7dad-44fd-b7e9-eea053f3f153"
+Template: "fcadcff1-7dad-44fd-b7e9-eea053f3f153"
+Path: /sitecore/templates/Training/Holidays Section/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{5369F910-EE64-4C45-A22B-044EC163954F}">
+        <r
+          id="{A6DCFEC3-07C1-4B3A-A906-2615090C1FC9}"
+          ph="phMain"
+          uid="{A36BD0E1-7187-46E9-BFFF-40F893B71919}" />
+        <r
+          id="{E33DA527-F687-4676-9731-B2EAFC832617}"
+          ph="phMain"
+          uid="{F3EA4163-9DE6-4626-BB0D-5D4CAC5AE72F}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160426T142830Z

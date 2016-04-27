@@ -1,0 +1,23 @@
+﻿---
+ID: "8ff8c82a-9eaf-4ed1-897c-6e6f40e970a2"
+Parent: "3e32ebd2-eb94-44b5-9335-fcc193e85a41"
+Template: "f82e865b-3262-48d2-849f-05ccb45da9d5"
+Path: /sitecore/content/Home/Family Holidays/Greenland by bicycle/20160427T085131Z
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160427T085133Z
+    - ID: "3c35114a-3e65-4b9d-87e6-fc239799c311"
+      Hint: Author
+      Value: john
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: extranet\Anonymous
+    - ID: "6c112558-86c7-468b-a549-10f41ffcce8c"
+      Hint: Text
+      Value: Great

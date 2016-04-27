@@ -1,0 +1,47 @@
+﻿---
+ID: "7f20a796-9dcf-41f1-a23e-a67a09d2437a"
+Parent: "48c97d00-4ad0-4e7b-b149-413586450374"
+Template: "48c97d00-4ad0-4e7b-b149-413586450374"
+Path: /sitecore/templates/Training/Trip/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{A633207C-0914-4F70-A43D-97EF32EB2CE6}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{5369F910-EE64-4C45-A22B-044EC163954F}">
+        <r
+          id="{A6DCFEC3-07C1-4B3A-A906-2615090C1FC9}"
+          ph="phMain"
+          uid="{A36BD0E1-7187-46E9-BFFF-40F893B71919}" />
+        <r
+          id="{EA61014C-1A98-4A92-A885-0F5454B84BAD}"
+          ph="phMain"
+          uid="{CBF64B9F-345C-402C-BEA0-396441F7CE26}" />
+        <r
+          id="{53CB41F2-C295-49F5-A9A0-DE3132DD0616}"
+          ph="phMain"
+          uid="{2809EED4-BAFD-41CB-9832-7E2F16EF2889}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160426T101328Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "d0411d74-64f3-47d3-81a5-5e763f4aff3b"
+      Hint: Price per person
+      Value: n/a

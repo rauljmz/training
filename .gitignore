@@ -5,3 +5,4 @@ PublishProfiles/
 bin/
 obj/
 *.sitecore
+packages/

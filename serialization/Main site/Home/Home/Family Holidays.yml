@@ -1,0 +1,51 @@
+﻿---
+ID: "1f2b7d30-e2be-4a4d-bb51-aa05944cfccc"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "fcadcff1-7dad-44fd-b7e9-eea053f3f153"
+Path: /sitecore/content/Home/Family Holidays
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{48C97D00-4AD0-4E7B-B149-413586450374}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{79424F0F-4DD7-432F-A864-1AC166947A7C}"
+          p:before="r[@uid='{F3EA4163-9DE6-4626-BB0D-5D4CAC5AE72F}']"
+          s:ds="{14FC0DB5-04F0-4C9E-BB32-25226C36E443}"
+          s:id="{910A0FF3-051F-4B5F-823F-5E24DAF694BF}"
+          s:par="CssClass=red"
+          s:ph="phMain" />
+        <r
+          uid="{F3EA4163-9DE6-4626-BB0D-5D4CAC5AE72F}"
+          p:before="*[1=2]" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160426T095602Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "aca0d481-2c1c-4c88-8768-e1b92038e799"
+      Hint: Main Image
+      Value: "<image mediapath=\"/bike\" alt=\"bike\" width=\"460\" height=\"345\" hspace=\"\" vspace=\"\" showineditor=\"\" usethumbnail=\"\" src=\"~/media/bike\" mediaid=\"{80BC717D-69BA-41D8-9378-58F6706904A6}\" />"
+    - ID: "af94eeb1-97d3-432e-a510-dbfd41684ca8"
+      Hint: Main Content
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris congue vulputate erat hendrerit tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris congue vulputate erat hendrerit tincidunt.
+    - ID: "c976e4b3-f9f5-4c8a-b5b8-bf898d232e3c"
+      Hint: Heading
+      Value: "09:44:24"

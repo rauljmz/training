@@ -1,0 +1,52 @@
+﻿---
+ID: "3e32ebd2-eb94-44b5-9335-fcc193e85a41"
+Parent: "1f2b7d30-e2be-4a4d-bb51-aa05944cfccc"
+Template: "48c97d00-4ad0-4e7b-b149-413586450374"
+Path: /sitecore/content/Home/Family Holidays/Greenland by bicycle
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{D28A6691-AEC2-456D-8507-A184786CED20}"
+          p:before="r[@uid='{CBF64B9F-345C-402C-BEA0-396441F7CE26}']"
+          s:ds="{14FC0DB5-04F0-4C9E-BB32-25226C36E443}"
+          s:id="{910A0FF3-051F-4B5F-823F-5E24DAF694BF}"
+          s:ph="phMain" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Greenland by bicycle - display name"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{2809EED4-BAFD-41CB-9832-7E2F16EF2889}"
+              s:ds="{1F2B7D30-E2BE-4A4D-BB51-AA05944CFCCC}" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160426T103621Z
+    - ID: "c976e4b3-f9f5-4c8a-b5b8-bf898d232e3c"
+      Hint: Heading
+      Value: Greenland by bicycle

@@ -1,0 +1,22 @@
+﻿---
+ID: "821a49f9-7331-4a0e-a850-4b3efc7f21b8"
+Parent: "1f2b7d30-e2be-4a4d-bb51-aa05944cfccc"
+Template: "48c97d00-4ad0-4e7b-b149-413586450374"
+Path: /sitecore/content/Home/Family Holidays/Munich markets
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{A633207C-0914-4F70-A43D-97EF32EB2CE6}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160426T101833Z
+    - ID: "c976e4b3-f9f5-4c8a-b5b8-bf898d232e3c"
+      Hint: Heading
+      Value: Munich markets

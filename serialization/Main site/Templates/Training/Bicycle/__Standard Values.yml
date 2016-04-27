@@ -1,0 +1,33 @@
+﻿---
+ID: "8815328d-469f-4c1a-adb7-12f8e0b511aa"
+Parent: "a633207c-0914-4f70-a43d-97ef32eb2ce6"
+Template: "a633207c-0914-4f70-a43d-97ef32eb2ce6"
+Path: /sitecore/templates/Training/Bicycle/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{5369F910-EE64-4C45-A22B-044EC163954F}">
+        <r
+          id="{A6DCFEC3-07C1-4B3A-A906-2615090C1FC9}"
+          ph="phMain"
+          uid="{A36BD0E1-7187-46E9-BFFF-40F893B71919}" />
+        <r
+          id="{1E4B2D85-3FA8-4C0F-8D88-185DC3D0B1BD}"
+          ph="phMain"
+          uid="{99E98F35-B8B4-4117-901F-1E6290E1CD94}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160426T130207Z

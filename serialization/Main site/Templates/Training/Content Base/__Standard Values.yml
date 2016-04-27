@@ -1,0 +1,38 @@
+﻿---
+ID: "dbdca09e-3ee5-4adf-97ff-291eded6432b"
+Parent: "3c960ab3-e71f-41c2-960f-5463c74692bb"
+Template: "3c960ab3-e71f-41c2-960f-5463c74692bb"
+Path: /sitecore/templates/Training/Content Base/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{5369F910-EE64-4C45-A22B-044EC163954F}">
+        <r
+          id="{A6DCFEC3-07C1-4B3A-A906-2615090C1FC9}"
+          ph="phMain"
+          uid="{A36BD0E1-7187-46E9-BFFF-40F893B71919}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160426T101610Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "af94eeb1-97d3-432e-a510-dbfd41684ca8"
+      Hint: Main Content
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris congue vulputate erat hendrerit tincidunt.
+    - ID: "c976e4b3-f9f5-4c8a-b5b8-bf898d232e3c"
+      Hint: Heading
+      Value: $name
