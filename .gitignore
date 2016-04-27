@@ -1,0 +1,7 @@
+Libraries/
+*.user
+*.suo
+PublishProfiles/
+bin/
+obj/
+*.sitecore
