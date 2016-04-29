@@ -12,19 +12,23 @@ namespace Training.code
 {
     public class InsertOptionMovingRestriction
     {
-        public void OnMoving(object sender, EventArgs args)
+        public void Process(Sitecore.Web.UI.Sheer.ClientPipelineArgs args)
         {
-            var item = Sitecore.Events.Event.ExtractParameter<Item>(args, 0);
+            var guid = args.Parameters[1];
+            var newParentID = args.Parameters[5];
+
+
+            var item = Sitecore.Context.ContentDatabase.GetItem(guid);
             //var oldParentID = Sitecore.Events.Event.ExtractParameter<ID>(args, 1);
-            var newParentID = Sitecore.Events.Event.ExtractParameter<ID>(args, 2);
+            //var newParentID = Sitecore.Events.Event.ExtractParameter<ID>(args, 2);
 
             var newParent = item.Database.GetItem(newParentID);
             if (newParent != null)
             {
                 if (!newParent[FieldIDs.Branches].Contains(item.TemplateID.ToString()))
                 {
-                    ((SitecoreEventArgs)args).Result.Cancel = true;
-                    SheerResponse.Alert("You are not allowed to copy the item to that location", true);
+                    args.AbortPipeline();
+                    Sitecore.Context.ClientPage.ClientResponse.Alert("You are not allowed to copy the item to that location");
                 }
 
             }
